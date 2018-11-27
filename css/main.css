@@ -1,0 +1,273 @@
+body {
+  font-family: 'Century Gothic', sans-serif;
+}
+
+body .btn {
+  font-size: 28px;
+  font-weight: 400;
+  color: white;
+  width: 263px;
+  font-family: 'Raleway', sans-serif;
+  margin-right: 8px;
+}
+
+body .btn-b {
+  background: #2ab9f8;
+}
+
+body .btn-o {
+  background: #f35c25;
+}
+
+body header {
+  background-image: url("/img/header_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 280px;
+  padding-top: 300px;
+}
+
+body header .virtual h2 {
+  font-size: 55px;
+  font-weight: 500;
+  color: #53565a;
+}
+
+body header .virtual h1 {
+  font-family: 'SignPainter HouseCasual';
+  font-size: 80px;
+  font-weight: bold;
+  color: #009ade;
+}
+
+body header .virtual h1 span {
+  color: #f15a22;
+}
+
+body header .virtual p {
+  font-size: 25px;
+  color: #4d4d4f;
+  padding-bottom: 25px;
+}
+
+body .about {
+  background: url("/img/bg-second.png") no-repeat;
+  background-position: top;
+  padding-bottom: 403px;
+  padding-top: 170px;
+}
+
+body .about .row div p {
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+}
+
+body .about .row div h3 {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 20px;
+  line-height: 0.9;
+}
+
+body .summits h3 {
+  margin-top: 115px;
+  margin-bottom: 35px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #53565a;
+}
+
+body .summits .card-summit-second {
+  background: #ededee;
+}
+
+body .summits .card-summit-second img {
+  margin-bottom: 73px;
+  margin-top: 58px;
+}
+
+body .summits .card-summit-second div h4 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #53565a;
+  padding-top: 68px;
+}
+
+body .summits .card-summit-second div p {
+  color: #53565a;
+}
+
+body .summits .card-summit-second div p span {
+  color: #f35c25;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+body .summits .card-summit-second div button {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+body .summits .card-summit-first img {
+  margin-bottom: 73px;
+  margin-top: 69px;
+}
+
+body .summits .card-summit-first div h4 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #53565a;
+  margin-top: 43px;
+}
+
+body .summits .card-summit-first div p {
+  color: #53565a;
+}
+
+body .summits .card-summit-first div p span {
+  color: #f35c25;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+body .summits .card-summit-first div button {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+body .sponsor {
+  background: url("/img/bg.png") no-repeat top;
+  padding-top: 140px;
+}
+
+body .sponsor h3 {
+  font-weight: bold;
+  font-size: 48px;
+  color: white;
+  padding-bottom: 35px;
+}
+
+body .sponsor .container .bot-h3 {
+  font-weight: bold;
+  font-size: 48px;
+  color: #53565a;
+}
+
+body .sponsor .container .row div {
+  padding-bottom: 485px;
+}
+
+body .sponsor .container .row div img {
+  margin-bottom: 20px;
+}
+
+body .sponsor .container .row div h4 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+body .packges .container-fluid h3 {
+  font-weight: bold;
+  font-size: 48px;
+  color: #53565a;
+}
+
+body .packges .container-fluid .row div .card {
+  background-image: url("/img/bg-mini.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body .packges .container-fluid .row div .card h5 {
+  font-size: 30px;
+  color: white;
+}
+
+body .packges .container-fluid .row div .card h6 {
+  color: white;
+  font-size: 25px;
+}
+
+body .packges .container-fluid .row div .card button {
+  width: 225px;
+  font-size: 28px;
+  font-weight: 400;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  background: #2ab9f8;
+}
+
+body .packges .container-fluid .row div .card p {
+  font-size: 17px;
+  line-height: 18px;
+  margin-top: 50px;
+  color: #53565a;
+}
+
+body .packges .container-fluid .row div .card p span {
+  margin-top: 30px;
+  font-size: 32px;
+  color: #009ade;
+}
+
+body footer {
+  background: url("/img/footer-bg.png") no-repeat top;
+  padding-top: 275px;
+}
+
+body footer .container .row img {
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 720px) {
+  body header {
+    padding-top: 100px;
+    margin-bottom: -200px;
+  }
+  body header .virtual .row h2 {
+    font-size: 38px;
+  }
+  body header .virtual .row h1 {
+    font-size: 70px;
+    width: 100%;
+  }
+  body header .virtual .row p {
+    font-size: 20px;
+    text-align: center;
+  }
+  body header .virtual .row .btn-o {
+    margin-left: 0;
+    margin-top: 13px;
+  }
+  body header .virtual .row div {
+    text-align: center;
+  }
+  body .about {
+    padding-top: 100px;
+  }
+  body .summits .container-fluid {
+    text-align: center;
+  }
+  body .summits .container-fluid .btn-o {
+    margin-bottom: 30px;
+  }
+  body .packges .container-fluid h3 {
+    font-size: 38px;
+    padding-bottom: 10px;
+  }
+  body .packges .container-fluid div .card {
+    width: 100% !important;
+    margin-bottom: 50px;
+  }
+  body .packges .container-fluid div .card p span {
+    margin-top: 60px;
+  }
+  body .sponsor .container .row div {
+    padding-bottom: 350px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,250 @@
+$orange: #f35c25
+$blue: #2ab9f8
+$grey-text: #53565a
+$grey-bg: #ededee
+$white: white
+
+@mixin bg($src1)
+    background: url($src1) no-repeat top 
+    
+@mixin grey-h3()
+    font-weight: bold
+    font-size: 48px
+    color: $grey-text
+@mixin white-h3()
+    font-weight: bold
+    font-size: 48px
+    color: white
+
+@mixin background-img($src)
+    background-image: url($src)
+    // background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+body
+    .btn
+        font-size: 28px
+        font-weight: 400
+        color: $white
+        width: 263px
+        font-family: 'Raleway', sans-serif
+        margin-right: 8px
+    .btn-b
+        background: $blue
+    .btn-o
+        background: $orange
+    font-family: 'Century Gothic', sans-serif
+    //Шапка
+    header
+        @include background-img('/img/header_bg.png') 
+        padding-bottom: 280px
+        padding-top: 300px
+        .virtual
+            h2
+                font-size: 55px
+                font-weight: 500
+                color: $grey-text
+            h1
+                font-family: 'SignPainter HouseCasual'
+                font-size: 80px
+                font-weight: bold
+                
+                color: #009ade
+                span
+                    color: #f15a22
+            p
+                font-size: 25px
+                color: #4d4d4f
+                padding-bottom: 25px
+                
+    .about
+        background: url('/img/bg-second.png') no-repeat
+        background-position: top
+        padding-bottom: 403px
+        padding-top: 170px
+        .row
+            div
+                p
+                    font-size: 20px
+                    color: $white
+                    font-weight: 300
+                h3
+                    font-size: 48px
+                    font-weight: bold     
+                    color: $white
+                    padding-bottom: 20px  
+                    line-height: 0.9           
+    .summits
+        h3
+            margin-top: 115px
+            margin-bottom: 35px
+            font-size: 48px
+            font-weight: bold
+            color: $grey-text
+        .card-summit-second
+            background: $grey-bg
+            img
+                margin-bottom: 73px
+                margin-top: 58px
+            div            
+                h4
+                    font-size: 32px
+                    font-weight: bold
+                    color: $grey-text
+                    padding-top: 68px
+                p
+                    color: $grey-text
+                    span
+                        color: $orange 
+                        font-size: 25px
+                        font-weight: bold
+                button
+                    font-size: 18px
+                    font-weight: bold 
+                    margin-top: 15px
+        .card-summit-first
+            img
+                margin-bottom: 73px
+                margin-top: 69px
+            div            
+                h4
+                    font-size: 32px
+                    font-weight: bold
+                    color: $grey-text
+                    margin-top: 43px
+                p
+                    color: $grey-text
+                    span
+                        color: $orange 
+                        font-size: 25px
+                        font-weight: bold
+                button
+                    font-size: 18px
+                    font-weight: bold 
+                    margin-top: 10px
+    .sponsor
+        @include bg('/img/bg.png')
+        padding-top: 140px
+        h3
+            @include white-h3()
+            padding-bottom: 35px
+        .container
+            .bot-h3
+                @include grey-h3()
+            .row
+                div
+                    padding-bottom: 485px
+                    img
+                        margin-bottom: 20px
+                    h4
+                        font-size: 26px
+                        font-weight: bold       
+    .packges
+        .container-fluid
+            h3
+                font-weight: bold
+                font-size: 48px
+                color: $grey-text
+            .row
+                div
+                    .card
+                        @include background-img('/img/bg-mini.png')
+                        h5
+                            font-size: 30px
+                            color: $white
+                        h6
+                            color: $white
+                            font-size: 25px
+                        button
+                            width: 225px
+                            font-size: 28px
+                            font-weight: 400
+                            color: $white
+                            font-family: 'Raleway', sans-serif  
+                            background: $blue
+                        p
+                            font-size: 17px   
+                            line-height: 18px 
+                            margin-top: 50px
+                            color: $grey-text
+                            span
+                                margin-top: 30px
+                                font-size: 32px
+                                color: #009ade 
+    footer
+        @include bg('/img/footer-bg.png')
+        padding-top: 275px
+        .container
+            .row
+                img
+                    padding-bottom: 40px
+        
+        
+
+                                  
+                           
+
+        
+                                         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px)
+    body
+        header
+            padding-top: 100px
+            margin-bottom: -200px
+            .virtual
+                .row
+                    h2
+                        font-size: 38px
+                    h1
+                        font-size: 70px   
+                        width: 100% 
+                    p
+                        font-size: 20px
+                        text-align: center
+                        
+                    .btn-o
+                        margin-left: 0
+                        margin-top: 13px
+                    div
+                        text-align: center
+        .about
+            padding-top: 100px  
+        .summits
+            .container-fluid
+                text-align: center
+                .btn-o
+                    margin-bottom: 30px       
+        .packges
+            .container-fluid
+                h3
+                    font-size: 38px
+                    padding-bottom: 10px
+                div
+                    .card
+                        width: 100% !important
+                        margin-bottom: 50px
+                        p
+                            span
+                                margin-top: 60px 
+
+        .sponsor
+            .container
+                .row
+                    div
+                        padding-bottom: 350px
+                    
+
