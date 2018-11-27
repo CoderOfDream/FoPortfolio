@@ -20,7 +20,7 @@ body .btn-o {
 }
 
 body header {
-  background-image: url("/img/header_bg.png");
+  background-image: url("../img/header_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 280px;
@@ -51,7 +51,7 @@ body header .virtual p {
 }
 
 body .about {
-  background: url("/img/bg-second.png") no-repeat;
+  background: url("../img/bg-second.png") no-repeat;
   background-position: top;
   padding-bottom: 403px;
   padding-top: 170px;
@@ -140,7 +140,7 @@ body .summits .card-summit-first div button {
 }
 
 body .sponsor {
-  background: url("/img/bg.png") no-repeat top;
+  background: url("../img/bg.png") no-repeat top;
   padding-top: 140px;
 }
 
@@ -177,7 +177,7 @@ body .packges .container-fluid h3 {
 }
 
 body .packges .container-fluid .row div .card {
-  background-image: url("/img/bg-mini.png");
+  background-image: url("../img/bg-mini.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -215,7 +215,7 @@ body .packges .container-fluid .row div .card p span {
 }
 
 body footer {
-  background: url("/img/footer-bg.png") no-repeat top;
+  background: url("../img/footer-bg.png") no-repeat top;
   padding-top: 275px;
 }
 
